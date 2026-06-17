@@ -1,5 +1,79 @@
 {
+  "index-version": 1,
+  "generated-by": "ingest-skills.mjs (skills-management Phase 4)",
   "skills": [
+    {
+      "name": "ab-testing",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants to plan, design, or implement an A/B test or experiment, or build a growth experimentation program. Also use when the user mentions \"A/B test,\" \"split test,\" \"experiment,\" \"test this change,\" \"variant copy,\" \"multivariate test,\" \"hypothesis,\" \"should I test this,\" \"which version is better,\" \"test two versions,\" \"statistical significance,\" \"how long should I run this test,\" \"growth experiments,\" \"experiment velocity,\" \"experiment backlog,\" \"ICE score,\" \"experimentation program,\" or \"experiment playbook.\" Use this whenever someone is comparing two approaches and wants to measure which performs better, or when they want to build a systematic experimentation practice. For tracking implementation, see analytics. For page-level conversion optimization, see cro.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/ab-testing/SKILL.md"
+    },
+    {
+      "name": "ad-creative",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants to generate, iterate, or scale ad creative — headlines, descriptions, primary text, or full ad variations — for any paid advertising platform. Also use when the user mentions 'ad copy variations,' 'ad creative,' 'generate headlines,' 'RSA headlines,' 'bulk ad copy,' 'ad iterations,' 'creative testing,' 'ad performance optimization,' 'write me some ads,' 'Facebook ad copy,' 'Google ad headlines,' 'LinkedIn ad text,' or 'I need more ad variations.' Use this whenever someone needs to produce ad copy at scale or iterate on existing ads. For campaign strategy and targeting, see ads. For landing page copy, see copywriting.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/ad-creative/SKILL.md"
+    },
+    {
+      "name": "address-sanitizer",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "AddressSanitizer detects memory errors during fuzzing. Use when fuzzing C/C++ code to find buffer overflows and use-after-free bugs.",
+      "provenance": "github.com/trailofbits/skills/plugins/testing-handbook-skills/skills/address-sanitizer/SKILL.md"
+    },
+    {
+      "name": "ads",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants help with paid advertising campaigns on Google Ads, Meta (Facebook/Instagram), LinkedIn, Twitter/X, or other ad platforms. Also use when the user mentions 'PPC,' 'paid media,' 'ROAS,' 'CPA,' 'ad campaign,' 'retargeting,' 'audience targeting,' 'Google Ads,' 'Facebook ads,' 'LinkedIn ads,' 'ad budget,' 'cost per click,' 'ad spend,' or 'should I run ads.' Use this for campaign strategy, audience targeting, bidding, and optimization. For bulk ad creative generation and iteration, see ad-creative. For landing page optimization, see cro.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/ads/SKILL.md"
+    },
+    {
+      "name": "aflpp",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "AFL++ is a fork of AFL with better fuzzing performance and advanced features. Use for multi-core fuzzing of C/C++ projects.",
+      "provenance": "github.com/trailofbits/skills/plugins/testing-handbook-skills/skills/aflpp/SKILL.md"
+    },
+    {
+      "name": "agentic-actions-auditor",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Audits GitHub Actions workflows for security vulnerabilities in AI agent integrations including Claude Code Action, Gemini CLI, OpenAI Codex, and GitHub AI Inference. Detects attack vectors where attacker-controlled input reaches AI agents running in CI/CD pipelines, including env var intermediary patterns, direct expression injection, dangerous sandbox configurations, and wildcard user allowlists. Use when reviewing workflow files that invoke AI coding agents, auditing CI/CD pipeline security for prompt injection risks, or evaluating agentic action configurations.",
+      "provenance": "github.com/trailofbits/skills/plugins/agentic-actions-auditor/skills/agentic-actions-auditor/SKILL.md"
+    },
+    {
+      "name": "ai-seo",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants to optimize content for AI search engines, get cited by LLMs, or appear in AI-generated answers. Also use when the user mentions 'AI SEO,' 'AEO,' 'GEO,' 'LLMO,' 'answer engine optimization,' 'generative engine optimization,' 'LLM optimization,' 'AI Overviews,' 'optimize for ChatGPT,' 'optimize for Perplexity,' 'AI citations,' 'AI visibility,' 'zero-click search,' 'how do I show up in AI answers,' 'LLM mentions,' 'optimize for Claude/Gemini,' 'llms.txt,' 'OKF,' 'Open Knowledge Format,' 'knowledge bundle,' or 'agent-readable site.' Use this whenever someone wants their content to be cited or surfaced by AI assistants and AI search engines. For traditional technical and on-page SEO audits, see seo-audit. For structured data implementation, see schema.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/ai-seo/SKILL.md"
+    },
+    {
+      "name": "algorand-vulnerability-scanner",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Scans Algorand smart contracts for 11 common vulnerabilities including rekeying attacks, unchecked transaction fees, missing field validations, and access control issues. Use when auditing Algorand projects (TEAL/PyTeal).",
+      "provenance": "github.com/trailofbits/skills/plugins/building-secure-contracts/skills/algorand-vulnerability-scanner/SKILL.md"
+    },
     {
       "name": "algorithmic-art",
       "kind": "core",
@@ -7,7 +81,70 @@
       "version": "sha:HEAD",
       "license": "Complete terms in LICENSE.txt",
       "description": "Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when users request creating art using code, generative art, algorithmic art, flow fields, or particle systems. Create original algorithmic art rather than copying existing artists' work to avoid copyright violations.",
-      "provenance": "anthropics/skills"
+      "provenance": "github.com/anthropics/skills/skills/algorithmic-art/SKILL.md"
+    },
+    {
+      "name": "analytics",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants to set up, improve, or audit analytics tracking and measurement. Also use when the user mentions \"set up tracking,\" \"GA4,\" \"Google Analytics,\" \"conversion tracking,\" \"event tracking,\" \"UTM parameters,\" \"tag manager,\" \"GTM,\" \"analytics implementation,\" \"tracking plan,\" \"how do I measure this,\" \"track conversions,\" \"attribution,\" \"Mixpanel,\" \"Segment,\" \"are my events firing,\" or \"analytics isn't working.\" Use this whenever someone asks how to know if something is working or wants to measure marketing results. For A/B test measurement, see ab-testing.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/analytics/SKILL.md"
+    },
+    {
+      "name": "ask-questions-if-underspecified",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Clarify requirements before implementing. Use when serious doubts arise.",
+      "provenance": "github.com/trailofbits/skills/plugins/ask-questions-if-underspecified/skills/ask-questions-if-underspecified/SKILL.md"
+    },
+    {
+      "name": "aso",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants to audit or optimize an App Store or Google Play listing. Also use when the user mentions 'ASO audit,' 'app store optimization,' 'optimize my app listing,' 'improve app visibility,' 'app store ranking,' 'audit my listing,' 'why aren't people downloading my app,' 'improve my app conversion,' 'keyword optimization for app,' or 'compare my app to competitors.' Use when the user shares an App Store or Google Play URL and wants to improve it.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/aso/SKILL.md"
+    },
+    {
+      "name": "atheris",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Atheris is a coverage-guided Python fuzzer based on libFuzzer. Use for fuzzing pure Python code and Python C extensions.",
+      "provenance": "github.com/trailofbits/skills/plugins/testing-handbook-skills/skills/atheris/SKILL.md"
+    },
+    {
+      "name": "audit-augmentation",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Augments Trailmark code graphs with external audit findings from SARIF static analysis results and weAudit annotation files. Maps findings to graph nodes by file and line overlap, creates severity-based subgraphs, and enables cross-referencing findings with pre-analysis data (blast radius, taint, etc.). Use when projecting SARIF results onto a code graph, overlaying weAudit annotations, cross-referencing Semgrep or CodeQL findings with call graph data, or visualizing audit findings in the context of code structure.",
+      "provenance": "github.com/trailofbits/skills/plugins/trailmark/skills/audit-augmentation/SKILL.md"
+    },
+    {
+      "name": "audit-context-building",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Enables ultra-granular, line-by-line code analysis to build deep architectural context before vulnerability or bug finding.",
+      "provenance": "github.com/trailofbits/skills/plugins/audit-context-building/skills/audit-context-building/SKILL.md"
+    },
+    {
+      "name": "audit-prep-assistant",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Prepares codebases for security review using Trail of Bits' checklist. Helps set review goals, runs static analysis tools, increases test coverage, removes dead code, ensures accessibility, and generates documentation (flowcharts, user stories, inline comments).",
+      "provenance": "github.com/trailofbits/skills/plugins/building-secure-contracts/skills/audit-prep-assistant/SKILL.md"
     },
     {
       "name": "bmad-advanced-elicitation",
@@ -514,13 +651,454 @@
       "provenance": "bmad-method"
     },
     {
+      "name": "brainstorming",
+      "kind": "workflow",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "You MUST use this before any creative work - creating features, building components, adding functionality, or modifying behavior. Explores user intent, requirements and design before implementation.",
+      "provenance": "github.com/obra/superpowers/skills/brainstorming/SKILL.md"
+    },
+    {
+      "name": "brand-guidelines",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "Complete terms in LICENSE.txt",
+      "description": "Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthropic's look-and-feel. Use it when brand colors or style guidelines, visual formatting, or company design standards apply.",
+      "provenance": "github.com/anthropics/skills/skills/brand-guidelines/SKILL.md"
+    },
+    {
+      "name": "burpsuite-project-parser",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Searches and explores Burp Suite project files (.burp) from the command line. Use when searching response headers or bodies with regex patterns, extracting security audit findings, dumping proxy history or site map data, or analyzing HTTP traffic captured in a Burp project.",
+      "provenance": "github.com/trailofbits/skills/plugins/burpsuite-project-parser/skills/burpsuite-project-parser/SKILL.md"
+    },
+    {
+      "name": "c-review",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Performs comprehensive C/C++ security review for memory corruption, integer overflows, race conditions, and platform-specific vulnerabilities. Use when auditing native C/C++ applications, reviewing daemons or services for memory safety, or hunting integer overflow / use-after-free / race conditions in userspace code.",
+      "provenance": "github.com/trailofbits/skills/plugins/c-review/skills/c-review/SKILL.md"
+    },
+    {
+      "name": "cairo-vulnerability-scanner",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Scans Cairo/StarkNet smart contracts for 6 critical vulnerabilities including felt252 arithmetic overflow, L1-L2 messaging issues, address conversion problems, and signature replay. Use when auditing StarkNet projects.",
+      "provenance": "github.com/trailofbits/skills/plugins/building-secure-contracts/skills/cairo-vulnerability-scanner/SKILL.md"
+    },
+    {
       "name": "canvas-design",
       "kind": "core",
       "framework": false,
       "version": "sha:HEAD",
       "license": "Complete terms in LICENSE.txt",
       "description": "Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the user asks to create a poster, piece of art, design, or other static piece. Create original visual designs, never copying existing artists' work to avoid copyright violations.",
-      "provenance": "anthropics/skills"
+      "provenance": "github.com/anthropics/skills/skills/canvas-design/SKILL.md"
+    },
+    {
+      "name": "cargo-fuzz",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "cargo-fuzz is the de facto fuzzing tool for Rust projects using Cargo. Use for fuzzing Rust code with libFuzzer backend.",
+      "provenance": "github.com/trailofbits/skills/plugins/testing-handbook-skills/skills/cargo-fuzz/SKILL.md"
+    },
+    {
+      "name": "caveman",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Ultra-compressed communication mode. Cuts token usage ~75% by dropping filler, articles, and pleasantries while keeping full technical accuracy. Use when user says \"caveman mode\", \"talk like caveman\", \"use caveman\", \"less tokens\", \"be brief\", or invokes /caveman.",
+      "provenance": "github.com/mattpocock/skills/skills/productivity/caveman/SKILL.md"
+    },
+    {
+      "name": "chrome-mcp-troubleshooting",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Diagnose and fix Claude in Chrome MCP extension connectivity issues. Use when mcp__claude-in-chrome__* tools fail, return \"Browser extension is not connected\", or behave erratically.",
+      "provenance": "github.com/trailofbits/skills/plugins/claude-in-chrome-troubleshooting/skills/chrome-mcp-troubleshooting/SKILL.md"
+    },
+    {
+      "name": "churn-prevention",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants to reduce churn, build cancellation flows, set up save offers, recover failed payments, or implement retention strategies. Also use when the user mentions 'churn,' 'cancel flow,' 'offboarding,' 'save offer,' 'dunning,' 'failed payment recovery,' 'win-back,' 'retention,' 'exit survey,' 'pause subscription,' 'involuntary churn,' 'people keep canceling,' 'churn rate is too high,' 'how do I keep users,' or 'customers are leaving.' Use this whenever someone is losing subscribers or wants to build systems to prevent it. For post-cancel win-back email sequences, see emails. For in-app upgrade paywalls, see paywalls.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/churn-prevention/SKILL.md"
+    },
+    {
+      "name": "claude-api",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "Complete terms in LICENSE.txt",
+      "description": "Reference for the Claude API / Anthropic SDK — model ids, pricing, params, streaming, tool use, MCP, agents, caching, token counting, model migration.\nTRIGGER — read BEFORE opening the target file; don't skip because it \"looks like a one-liner\" — whenever: the prompt names Claude/Anthropic in any form (Claude, Anthropic, Fable, Opus, Sonnet, Haiku, `anthropic`, `@anthropic-ai`, `claude-*`, `us.anthropic.*`, `[1m]`); the user asks about an LLM (pricing/model choice/limits/caching) — never answer from memory; OR the task is LLM-shaped with provider unstated (agent/MCP/tool-definition/multi-agent/RAG/LLM-judge/computer-use; generate/summarize/extract/classify/rewrite/converse over NL; debugging refusals/cutoffs/streaming/tool-calls/tokens).\nSKIP only when another provider is being worked on (overrides all triggers): OpenAI/GPT/Gemini/Llama/Mistral/Cohere/Ollama named in the query; OR `grep -rE 'openai|langchain_openai|google.generativeai|genai|mistralai|cohere|ollama'` over the project hits (run this grep FIRST if no provider named — don't Read the file).",
+      "provenance": "github.com/anthropics/skills/skills/claude-api/SKILL.md"
+    },
+    {
+      "name": "co-marketing",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants to find co-marketing partners, plan joint campaigns, or brainstorm partnership opportunities. Use when the user says 'co-marketing,' 'partner marketing,' 'joint campaign,' 'who should we partner with,' 'integration marketing,' 'cross-promotion,' 'collaborate with another company,' 'partnership ideas,' or 'co-brand.' For customer referral programs, see referrals. For launch-specific partnerships, see launch.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/co-marketing/SKILL.md"
+    },
+    {
+      "name": "code-maturity-assessor",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Systematic code maturity assessment using Trail of Bits' 9-category framework. Analyzes codebase for arithmetic safety, auditing practices, access controls, complexity, decentralization, documentation, MEV risks, low-level code, and testing. Produces professional scorecard with evidence-based ratings and actionable recommendations.",
+      "provenance": "github.com/trailofbits/skills/plugins/building-secure-contracts/skills/code-maturity-assessor/SKILL.md"
+    },
+    {
+      "name": "codeql",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Scans a codebase for security vulnerabilities using CodeQL's interprocedural data flow and taint tracking analysis. Triggers on \"run codeql\", \"codeql scan\", \"codeql analysis\", \"build codeql database\", or \"find vulnerabilities with codeql\". Supports \"run all\" (security-and-quality + security-experimental suites) and \"important only\" (high-precision security findings) scan modes. Also handles creating data extension models and processing CodeQL SARIF output.",
+      "provenance": "github.com/trailofbits/skills/plugins/static-analysis/skills/codeql/SKILL.md"
+    },
+    {
+      "name": "cold-email",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Write B2B cold emails and follow-up sequences that get replies. Use when the user wants to write cold outreach emails, prospecting emails, cold email campaigns, sales development emails, or SDR emails. Also use when the user mentions \"cold outreach,\" \"prospecting email,\" \"outbound email,\" \"email to leads,\" \"reach out to prospects,\" \"sales email,\" \"follow-up email sequence,\" \"nobody's replying to my emails,\" or \"how do I write a cold email.\" Covers subject lines, opening lines, body copy, CTAs, personalization, and multi-touch follow-up sequences. For warm/lifecycle email sequences, see emails. For sales collateral beyond emails, see sales-enablement.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/cold-email/SKILL.md"
+    },
+    {
+      "name": "community-marketing",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Build and leverage online communities to drive product growth and brand loyalty. Use when the user wants to create a community strategy, grow a Discord or Slack community, manage a forum or subreddit, build brand advocates, increase word-of-mouth, drive community-led growth, engage users post-signup, or turn customers into evangelists. Trigger phrases: \"build a community,\" \"community strategy,\" \"Discord community,\" \"Slack community,\" \"community-led growth,\" \"brand advocates,\" \"user community,\" \"forum strategy,\" \"community engagement,\" \"grow our community,\" \"ambassador program,\" \"community flywheel.\"",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/community-marketing/SKILL.md"
+    },
+    {
+      "name": "competitor-profiling",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants to research, profile, or analyze competitors from their URLs. Also use when the user mentions 'competitor profile,' 'competitor research,' 'competitor analysis,' 'profile this competitor,' 'analyze competitor,' 'competitive intelligence,' 'competitor deep dive,' 'who are my competitors,' 'competitor landscape,' 'competitor dossier,' 'competitive audit,' or 'research these competitors.' Input is a list of competitor URLs. Output is structured competitor profile markdown files. For creating comparison/alternative pages from profiles, see competitors. For sales-specific battle cards, see sales-enablement.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/competitor-profiling/SKILL.md"
+    },
+    {
+      "name": "competitors",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants to create competitor comparison or alternative pages for SEO and sales enablement. Also use when the user mentions 'alternative page,' 'vs page,' 'competitor comparison,' 'comparison page,' '[Product] vs [Product],' '[Product] alternative,' 'competitive landing pages,' 'how do we compare to X,' 'battle card,' or 'competitor teardown.' Use this for any content that positions your product against competitors. Covers four formats: singular alternative, plural alternatives, you vs competitor, and competitor vs competitor. For sales-specific competitor docs, see sales-enablement.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/competitors/SKILL.md"
+    },
+    {
+      "name": "constant-time-analysis",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Detects timing side-channel vulnerabilities in cryptographic code. Use when implementing or reviewing crypto code, encountering division on secrets, secret-dependent branches, or constant-time programming questions in C, C++, Go, Rust, Swift, Java, Kotlin, C#, PHP, JavaScript, TypeScript, Python, or Ruby.",
+      "provenance": "github.com/trailofbits/skills/plugins/constant-time-analysis/skills/constant-time-analysis/SKILL.md"
+    },
+    {
+      "name": "constant-time-testing",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Constant-time testing detects timing side channels in cryptographic code. Use when auditing crypto implementations for timing vulnerabilities.",
+      "provenance": "github.com/trailofbits/skills/plugins/testing-handbook-skills/skills/constant-time-testing/SKILL.md"
+    },
+    {
+      "name": "content-strategy",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants to plan a content strategy, decide what content to create, or figure out what topics to cover. Also use when the user mentions \"content strategy,\" \"what should I write about,\" \"content ideas,\" \"blog strategy,\" \"topic clusters,\" \"content planning,\" \"editorial calendar,\" \"content marketing,\" \"content roadmap,\" \"what content should I create,\" \"blog topics,\" \"content pillars,\" or \"I don't know what to write.\" Use this whenever someone needs help deciding what content to produce, not just writing it. For writing individual pieces, see copywriting. For SEO-specific audits, see seo-audit. For social media content specifically, see social.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/content-strategy/SKILL.md"
+    },
+    {
+      "name": "copy-editing",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants to edit, review, or improve existing marketing copy, or refresh outdated content. Also use when the user mentions 'edit this copy,' 'review my copy,' 'copy feedback,' 'proofread,' 'polish this,' 'make this better,' 'copy sweep,' 'tighten this up,' 'this reads awkwardly,' 'clean up this text,' 'too wordy,' 'sharpen the messaging,' 'refresh this content,' 'update this page,' 'this content is outdated,' or 'content audit.' Use this when the user already has copy and wants it improved or refreshed rather than rewritten from scratch. For writing new copy, see copywriting.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/copy-editing/SKILL.md"
+    },
+    {
+      "name": "copywriting",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants to write, rewrite, or improve marketing copy for any page — including homepage, landing pages, pricing pages, feature pages, about pages, or product pages. Also use when the user says \"write copy for,\" \"improve this copy,\" \"rewrite this page,\" \"marketing copy,\" \"headline help,\" \"CTA copy,\" \"value proposition,\" \"tagline,\" \"subheadline,\" \"hero section copy,\" \"above the fold,\" \"this copy is weak,\" \"make this more compelling,\" or \"help me describe my product.\" Use this whenever someone is working on website text that needs to persuade or convert. For email copy, see emails. For popup copy, see popups. For editing existing copy, see copy-editing. For the offer underneath the copy (bonuses, guarantees, value framing), see offers.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/copywriting/SKILL.md"
+    },
+    {
+      "name": "cosmos-vulnerability-scanner",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Scans Cosmos SDK blockchain modules and CosmWasm contracts for consensus-critical vulnerabilities — chain halts, fund loss, state divergence. 25 core + 16 IBC + 10 EVM + 3 CosmWasm patterns. Use when auditing custom x/ modules, reviewing IBC integrations, or assessing pre-launch chain security. Updated for SDK v0.53.x.",
+      "provenance": "github.com/trailofbits/skills/plugins/building-secure-contracts/skills/cosmos-vulnerability-scanner/SKILL.md"
+    },
+    {
+      "name": "coverage-analysis",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Coverage analysis measures code exercised during fuzzing. Use when assessing harness effectiveness or identifying fuzzing blockers.",
+      "provenance": "github.com/trailofbits/skills/plugins/testing-handbook-skills/skills/coverage-analysis/SKILL.md"
+    },
+    {
+      "name": "cro",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants to optimize, improve, or increase conversions on any marketing page or form — including homepage, landing pages, pricing pages, feature pages, lead capture forms, or contact forms. Also use when the user says 'CRO,' 'conversion rate optimization,' 'this page isn't converting,' 'improve conversions,' 'why isn't this page working,' 'my landing page sucks,' 'form abandonment,' 'nobody's converting,' 'low conversion rate,' or 'this page needs work.' Use this even if the user just shares a URL and asks for feedback. For signup/registration flows, see signup. For post-signup activation, see onboarding. For popups/modals, see popups.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/cro/SKILL.md"
+    },
+    {
+      "name": "crypto-protocol-diagram",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Extracts protocol message flow from source code, RFCs, academic papers, pseudocode, informal prose, ProVerif (.pv), or Tamarin (.spthy) models and generates Mermaid sequenceDiagrams with cryptographic annotations. Use when diagramming a crypto protocol, visualizing a handshake or key exchange flow, extracting message flow from a spec or RFC, diagramming a ProVerif or Tamarin model, or drawing sequence diagrams for TLS, Noise, Signal, X3DH, Double Ratchet, FROST, DH, or ECDH protocols.",
+      "provenance": "github.com/trailofbits/skills/plugins/trailmark/skills/crypto-protocol-diagram/SKILL.md"
+    },
+    {
+      "name": "customer-research",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants to conduct, analyze, or synthesize customer research. Use when the user mentions \"customer research,\" \"ICP research,\" \"talk to customers,\" \"analyze transcripts,\" \"customer interviews,\" \"survey analysis,\" \"support ticket analysis,\" \"voice of customer,\" \"VOC,\" \"build personas,\" \"customer personas,\" \"jobs to be done,\" \"JTBD,\" \"what do customers say,\" \"what are customers struggling with,\" \"Reddit mining,\" \"G2 reviews,\" \"review mining,\" \"digital watering holes,\" \"community research,\" \"forum research,\" \"competitor reviews,\" \"customer sentiment,\" or \"find out why customers churn/convert/buy.\" Use for both analyzing existing research assets AND gathering new research from online sources. For writing copy informed by research, see copywriting. For acting on research to improve pages, see cro.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/customer-research/SKILL.md"
+    },
+    {
+      "name": "debug-buttercup",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Debugs the Buttercup CRS (Cyber Reasoning System) running on Kubernetes. Use when diagnosing pod crashes, restart loops, Redis failures, resource pressure, disk saturation, DinD issues, or any service misbehavior in the crs namespace. Covers triage, log analysis, queue inspection, and common failure patterns for: redis, fuzzer-bot, coverage-bot, seed-gen, patcher, build-bot, scheduler, task-server, task-downloader, program-model, litellm, dind, tracer-bot, merger-bot, competition-api, pov-reproducer, scratch-cleaner, registry-cache, image-preloader, ui.",
+      "provenance": "github.com/trailofbits/skills/plugins/debug-buttercup/skills/debug-buttercup/SKILL.md"
+    },
+    {
+      "name": "deploy-to-vercel",
+      "kind": "frontend",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Deploy applications and websites to Vercel. Use when the user requests deployment actions like \"deploy my app\", \"deploy and give me the link\", \"push this live\", or \"create a preview deployment\".",
+      "provenance": "github.com/vercel-labs/agent-skills/skills/deploy-to-vercel/SKILL.md"
+    },
+    {
+      "name": "design-an-interface",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Generate multiple radically different interface designs for a module using parallel sub-agents. Use when user wants to design an API, explore interface options, compare module shapes, or mentions \"design it twice\".",
+      "provenance": "github.com/mattpocock/skills/skills/deprecated/design-an-interface/SKILL.md"
+    },
+    {
+      "name": "designing-workflow-skills",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Guides the design and structuring of workflow-based Claude Code skills with multi-step phases, decision trees, subagent delegation, and progressive disclosure. Use when creating skills that involve sequential pipelines, routing patterns, safety gates, task tracking, phased execution, or any multi-step workflow. Also applies when reviewing or refactoring existing workflow skills for quality.",
+      "provenance": "github.com/trailofbits/skills/plugins/workflow-skill-design/skills/designing-workflow-skills/SKILL.md"
+    },
+    {
+      "name": "devcontainer-setup",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Creates devcontainers with Claude Code, language-specific tooling (Python/Node/Rust/Go), and persistent volumes. Use when adding devcontainer support to a project, setting up isolated development environments, or configuring sandboxed Claude Code workspaces.",
+      "provenance": "github.com/trailofbits/skills/plugins/devcontainer-setup/skills/devcontainer-setup/SKILL.md"
+    },
+    {
+      "name": "diagnose",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Disciplined diagnosis loop for hard bugs and performance regressions. Reproduce → minimise → hypothesise → instrument → fix → regression-test. Use when user says \"diagnose this\" / \"debug this\", reports a bug, says something is broken/throwing/failing, or describes a performance regression.",
+      "provenance": "github.com/mattpocock/skills/skills/engineering/diagnose/SKILL.md"
+    },
+    {
+      "name": "diagramming-code",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Generates Mermaid diagrams from Trailmark code graphs. Produces call graphs, class hierarchies, module dependency maps, containment diagrams, complexity heatmaps, and attack surface data flow visualizations. Use when visualizing code architecture, drawing call graphs, generating class diagrams, creating dependency maps, producing complexity heatmaps, or visualizing data flow and attack surface paths as Mermaid diagrams.",
+      "provenance": "github.com/trailofbits/skills/plugins/trailmark/skills/diagramming-code/SKILL.md"
+    },
+    {
+      "name": "differential-review",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Performs security-focused differential review of code changes (PRs, commits, diffs). Adapts analysis depth to codebase size, uses git history for context, calculates blast radius, checks test coverage, and generates comprehensive markdown reports. Automatically detects and prevents security regressions.",
+      "provenance": "github.com/trailofbits/skills/plugins/differential-review/skills/differential-review/SKILL.md"
+    },
+    {
+      "name": "dimensional-analysis",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Annotates codebases with dimensional analysis comments documenting units, dimensions, and decimal scaling. Use when someone asks to annotate units in a codebase, perform a dimensional analysis, or find vulnerabilities in a DeFi protocol, offchain code, or other blockchain-related codebase with arithmetic. Prevents dimensional mismatches and catches formula bugs early.",
+      "provenance": "github.com/trailofbits/skills/plugins/dimensional-analysis/skills/dimensional-analysis/SKILL.md"
+    },
+    {
+      "name": "directory-submissions",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants to submit their product to startup, SaaS, AI, agent, MCP, no-code, or review directories for backlinks, domain rating, and discovery. Also use when the user mentions \"directory submissions,\" \"submit to directories,\" \"backlinks from directories,\" \"list my product,\" \"submit to Product Hunt,\" \"BetaList,\" \"TAAFT,\" \"Futurepedia,\" \"G2 listing,\" \"Capterra listing,\" \"AlternativeTo,\" \"SaaSHub,\" \"AI directories,\" \"MCP registry,\" \"agent directory,\" \"dofollow backlinks,\" \"launch directories,\" or \"directory tracker.\" Use this whenever someone is planning the directory layer of a product launch or an ongoing backlink campaign. For the broader launch moment, see launch. For programmatic SEO pages that should live behind these backlinks, see programmatic-seo. For AI citation optimization, see ai-seo.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/directory-submissions/SKILL.md"
+    },
+    {
+      "name": "dispatching-parallel-agents",
+      "kind": "workflow",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies",
+      "provenance": "github.com/obra/superpowers/skills/dispatching-parallel-agents/SKILL.md"
+    },
+    {
+      "name": "doc-coauthoring",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "Anthropic (see LICENSE.txt)",
+      "description": "Guide users through a structured workflow for co-authoring documentation. Use when user wants to write documentation, proposals, technical specs, decision docs, or similar structured content. This workflow helps users efficiently transfer context, refine content through iteration, and verify the doc works for readers. Trigger when user mentions writing docs, creating proposals, drafting specs, or similar documentation tasks.",
+      "provenance": "github.com/anthropics/skills/skills/doc-coauthoring/SKILL.md"
+    },
+    {
+      "name": "docx",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "Proprietary. LICENSE.txt has complete terms",
+      "description": "Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx files). Triggers include: any mention of 'Word doc', 'word document', '.docx', or requests to produce professional documents with formatting like tables of contents, headings, page numbers, or letterheads. Also use when extracting or reorganizing content from .docx files, inserting or replacing images in documents, performing find-and-replace in Word files, working with tracked changes or comments, or converting content into a polished Word document. If the user asks for a 'report', 'memo', 'letter', 'template', or similar deliverable as a Word or .docx file, use this skill. Do NOT use for PDFs, spreadsheets, Google Docs, or general coding tasks unrelated to document generation.",
+      "provenance": "github.com/anthropics/skills/skills/docx/SKILL.md"
+    },
+    {
+      "name": "dwarf-expert",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Provides expertise for analyzing DWARF debug files and understanding the DWARF debug format/standard (v3-v5). Triggers when understanding DWARF information, interacting with DWARF files, answering DWARF-related questions, or working with code that parses DWARF data.",
+      "provenance": "github.com/trailofbits/skills/plugins/dwarf-expert/skills/dwarf-expert/SKILL.md"
+    },
+    {
+      "name": "edit-article",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Edit and improve articles by restructuring sections, improving clarity, and tightening prose. Use when user wants to edit, revise, or improve an article draft.",
+      "provenance": "github.com/mattpocock/skills/skills/personal/edit-article/SKILL.md"
+    },
+    {
+      "name": "emails",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants to create or optimize an email sequence, drip campaign, automated email flow, or lifecycle email program. Also use when the user mentions \"email sequence,\" \"drip campaign,\" \"nurture sequence,\" \"onboarding emails,\" \"welcome sequence,\" \"re-engagement emails,\" \"email automation,\" \"lifecycle emails,\" \"trigger-based emails,\" \"email funnel,\" \"email workflow,\" \"what emails should I send,\" \"welcome series,\" or \"email cadence.\" Use this for any multi-email automated flow. For cold outreach emails, see cold-email. For in-app onboarding, see onboarding.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/emails/SKILL.md"
+    },
+    {
+      "name": "entry-point-analyzer",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Analyzes smart contract codebases to identify state-changing entry points for security auditing. Detects externally callable functions that modify state, categorizes them by access level (public, admin, role-restricted, contract-only), and generates structured audit reports. Excludes view/pure/read-only functions. Use when auditing smart contracts (Solidity, Vyper, Solana/Rust, Move, TON, CosmWasm) or when asked to find entry points, audit flows, external functions, access control patterns, or privileged operations.",
+      "provenance": "github.com/trailofbits/skills/plugins/entry-point-analyzer/skills/entry-point-analyzer/SKILL.md"
+    },
+    {
+      "name": "executing-plans",
+      "kind": "workflow",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Use when you have a written implementation plan to execute in a separate session with review checkpoints",
+      "provenance": "github.com/obra/superpowers/skills/executing-plans/SKILL.md"
+    },
+    {
+      "name": "finishing-a-development-branch",
+      "kind": "workflow",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Use when implementation is complete, all tests pass, and you need to decide how to integrate the work - guides completion of development work by presenting structured options for merge, PR, or cleanup",
+      "provenance": "github.com/obra/superpowers/skills/finishing-a-development-branch/SKILL.md"
+    },
+    {
+      "name": "firebase-apk-scanner",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Scans Android APKs for Firebase security misconfigurations including open databases, storage buckets, authentication issues, and exposed cloud functions. Use when analyzing APK files for Firebase vulnerabilities, performing mobile app security audits, or testing Firebase endpoint security. For authorized security research only.",
+      "provenance": "github.com/trailofbits/skills/plugins/firebase-apk-scanner/skills/firebase-apk-scanner/SKILL.md"
+    },
+    {
+      "name": "fp-check",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Systematically verifies suspected security bugs to eliminate false positives. Produces TRUE POSITIVE or FALSE POSITIVE verdicts with documented evidence for each bug.",
+      "provenance": "github.com/trailofbits/skills/plugins/fp-check/skills/fp-check/SKILL.md"
+    },
+    {
+      "name": "free-tools",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants to plan, evaluate, or build a free tool for marketing purposes — lead generation, SEO value, or brand awareness. Also use when the user mentions \"engineering as marketing,\" \"free tool,\" \"marketing tool,\" \"calculator,\" \"generator,\" \"interactive tool,\" \"lead gen tool,\" \"build a tool for leads,\" \"free resource,\" \"ROI calculator,\" \"grader tool,\" \"audit tool,\" \"should I build a free tool,\" or \"tools for lead gen.\" Use this whenever someone wants to build something useful and give it away to attract leads or earn links. For downloadable content lead magnets (ebooks, checklists, templates), see lead-magnets.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/free-tools/SKILL.md"
     },
     {
       "name": "frontend-design",
@@ -529,9 +1107,1105 @@
       "version": "sha:HEAD",
       "license": "Complete terms in LICENSE.txt",
       "description": "Guidance for distinctive, intentional visual design when building new UI or reshaping an existing one. Helps with aesthetic direction, typography, and making choices that don't read as templated defaults.",
-      "provenance": "anthropics/skills"
+      "provenance": "github.com/anthropics/skills/skills/frontend-design/SKILL.md"
+    },
+    {
+      "name": "fuzzing-dictionary",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Fuzzing dictionaries guide fuzzers with domain-specific tokens. Use when fuzzing parsers, protocols, or format-specific code.",
+      "provenance": "github.com/trailofbits/skills/plugins/testing-handbook-skills/skills/fuzzing-dictionary/SKILL.md"
+    },
+    {
+      "name": "fuzzing-obstacles",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Techniques for patching code to overcome fuzzing obstacles. Use when checksums, global state, or other barriers block fuzzer progress.",
+      "provenance": "github.com/trailofbits/skills/plugins/testing-handbook-skills/skills/fuzzing-obstacles/SKILL.md"
+    },
+    {
+      "name": "genotoxic",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Graph-informed mutation testing triage. Parses codebases with Trailmark, runs mutation testing and necessist, then uses survived mutants, unnecessary test statements, and call graph data to identify false positives, missing test coverage, and fuzzing targets. Use when triaging survived mutants, analyzing mutation testing results, identifying test gaps, finding fuzzing targets from weak tests, running mutation frameworks (including circomvent and cairo-mutants), or using necessist.",
+      "provenance": "github.com/trailofbits/skills/plugins/trailmark/skills/genotoxic/SKILL.md"
+    },
+    {
+      "name": "gh-cli",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Enforces authenticated gh CLI workflows over unauthenticated curl/WebFetch patterns. Use when working with GitHub URLs, API access, pull requests, or issues.",
+      "provenance": "github.com/trailofbits/skills/plugins/gh-cli/skills/gh-cli/SKILL.md"
+    },
+    {
+      "name": "git-cleanup",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Safely analyzes and cleans up local git branches and worktrees by categorizing them as merged, squash-merged, superseded, or active work.",
+      "provenance": "github.com/trailofbits/skills/plugins/git-cleanup/skills/git-cleanup/SKILL.md"
+    },
+    {
+      "name": "git-guardrails-claude-code",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Set up Claude Code hooks to block dangerous git commands (push, reset --hard, clean, branch -D, etc.) before they execute. Use when user wants to prevent destructive git operations, add git safety hooks, or block git push/reset in Claude Code.",
+      "provenance": "github.com/mattpocock/skills/skills/misc/git-guardrails-claude-code/SKILL.md"
+    },
+    {
+      "name": "graph-evolution",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Compares Trailmark code graphs at two source code snapshots (git commits, tags, or directories) to surface security-relevant structural changes. Detects new attack paths, complexity shifts, blast radius growth, taint propagation changes, and privilege boundary modifications that text diffs miss. Use when comparing code between commits or tags, analyzing structural evolution, detecting attack surface growth, reviewing what changed between audit snapshots, or finding security-relevant changes that text diffs miss.",
+      "provenance": "github.com/trailofbits/skills/plugins/trailmark/skills/graph-evolution/SKILL.md"
+    },
+    {
+      "name": "grill-me",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Interview the user relentlessly about a plan or design until reaching shared understanding, resolving each branch of the decision tree. Use when user wants to stress-test a plan, get grilled on their design, or mentions \"grill me\".",
+      "provenance": "github.com/mattpocock/skills/skills/productivity/grill-me/SKILL.md"
+    },
+    {
+      "name": "grill-with-docs",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Grilling session that challenges your plan against the existing domain model, sharpens terminology, and updates documentation (CONTEXT.md, ADRs) inline as decisions crystallise. Use when user wants to stress-test a plan against their project's language and documented decisions.",
+      "provenance": "github.com/mattpocock/skills/skills/engineering/grill-with-docs/SKILL.md"
+    },
+    {
+      "name": "guidelines-advisor",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Smart contract development advisor based on Trail of Bits' best practices. Analyzes codebase to generate documentation/specifications, review architecture, check upgradeability patterns, assess implementation quality, identify pitfalls, review dependencies, and evaluate testing. Provides actionable recommendations.",
+      "provenance": "github.com/trailofbits/skills/plugins/building-secure-contracts/skills/guidelines-advisor/SKILL.md"
+    },
+    {
+      "name": "handoff",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Compact the current conversation into a handoff document for another agent to pick up.",
+      "provenance": "github.com/mattpocock/skills/skills/productivity/handoff/SKILL.md"
+    },
+    {
+      "name": "harness-writing",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Techniques for writing effective fuzzing harnesses across languages. Use when creating new fuzz targets or improving existing harness code.",
+      "provenance": "github.com/trailofbits/skills/plugins/testing-handbook-skills/skills/harness-writing/SKILL.md"
+    },
+    {
+      "name": "image",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants to create, generate, edit, or optimize images for marketing — blog heroes, social graphics, product mockups, profile banners, listing visuals, or brand assets. Also use when the user mentions 'AI image generation,' 'generate an image,' 'create a graphic,' 'product mockup,' 'hero image,' 'social media graphic,' 'banner image,' 'cover photo,' 'profile banner,' 'listing screenshot,' 'Flux,' 'Flux Kontext,' 'Midjourney,' 'DALL-E,' 'GPT Image,' 'ChatGPT Images,' 'Ideogram,' 'Gemini image,' 'Nano Banana,' 'Recraft,' 'Stable Diffusion,' 'Canva,' 'Figma,' 'image optimization,' 'compress images,' 'WebP,' or 'OG image.' Use this for general-purpose marketing image creation and optimization. For paid ad image creative and platform-specific ad specs, see ad-creative. For video production, see video.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/image/SKILL.md"
+    },
+    {
+      "name": "improve-codebase-architecture",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Find deepening opportunities in a codebase, informed by the domain language in CONTEXT.md and the decisions in docs/adr/. Use when the user wants to improve architecture, find refactoring opportunities, consolidate tightly-coupled modules, or make a codebase more testable and AI-navigable.",
+      "provenance": "github.com/mattpocock/skills/skills/engineering/improve-codebase-architecture/SKILL.md"
+    },
+    {
+      "name": "insecure-defaults",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Detects fail-open insecure defaults (hardcoded secrets, weak auth, permissive security) that allow apps to run insecurely in production. Use when auditing security, reviewing config management, or analyzing environment variable handling.",
+      "provenance": "github.com/trailofbits/skills/plugins/insecure-defaults/skills/insecure-defaults/SKILL.md"
+    },
+    {
+      "name": "internal-comms",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "Complete terms in LICENSE.txt",
+      "description": "A set of resources to help me write all kinds of internal communications, using the formats that my company likes to use. Claude should use this skill whenever asked to write some sort of internal communications (status reports, leadership updates, 3P updates, company newsletters, FAQs, incident reports, project updates, etc.).",
+      "provenance": "github.com/anthropics/skills/skills/internal-comms/SKILL.md"
+    },
+    {
+      "name": "interpreting-culture-index",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Interprets Culture Index (CI) surveys, behavioral profiles, and personality assessment data. Supports individual profile interpretation, team composition analysis (gas/brake/glue), burnout detection, profile comparison, hiring profiles, manager coaching, interview transcript analysis for trait prediction, candidate debrief, onboarding planning, and conflict mediation. Accepts extracted JSON or PDF input via OpenCV extraction script.",
+      "provenance": "github.com/trailofbits/skills/plugins/culture-index/skills/interpreting-culture-index/SKILL.md"
+    },
+    {
+      "name": "launch",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants to plan a product launch, feature announcement, or release strategy. Also use when the user mentions 'launch,' 'Product Hunt,' 'feature release,' 'announcement,' 'go-to-market,' 'beta launch,' 'early access,' 'waitlist,' 'product update,' 'how do I launch this,' 'launch checklist,' 'GTM plan,' or 'we're about to ship.' Use this whenever someone is preparing to release something publicly. For ongoing marketing after launch, see marketing-ideas. For the offer being launched (bonuses, guarantees, scarcity, naming), see offers.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/launch/SKILL.md"
+    },
+    {
+      "name": "lead-magnets",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants to create, plan, or optimize a lead magnet for email capture or lead generation. Also use when the user mentions \"lead magnet,\" \"gated content,\" \"content upgrade,\" \"downloadable,\" \"ebook,\" \"cheat sheet,\" \"checklist,\" \"template download,\" \"opt-in,\" \"freebie,\" \"PDF download,\" \"resource library,\" \"content offer,\" \"email capture content,\" \"Notion template,\" \"spreadsheet template,\" or \"what should I give away for emails.\" Use this for planning what to create and how to distribute it. For interactive tools as lead magnets, see free-tools. For writing the actual content, see copywriting. For the email sequence after capture, see emails.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/lead-magnets/SKILL.md"
+    },
+    {
+      "name": "let-fate-decide",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Draws the 12 Houses of the Zodiac Tarot spread to inject entropy into planning when prompts are vague, ambiguous, or casually delegated. Interprets the spread to guide next steps. Use when the user says 'let fate decide', 'YOLO', 'whatever', 'idk', or other nonchalant phrases, makes Yu-Gi-Oh references, or when you are about to arbitrarily pick between multiple reasonable approaches. Prefer over ask-questions-if-underspecified when the user's tone is casual or playful rather than precision-seeking.",
+      "provenance": "github.com/trailofbits/skills/plugins/let-fate-decide/skills/let-fate-decide/SKILL.md"
+    },
+    {
+      "name": "libafl",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "LibAFL is a modular fuzzing library for building custom fuzzers. Use for advanced fuzzing needs, custom mutators, or non-standard fuzzing targets.",
+      "provenance": "github.com/trailofbits/skills/plugins/testing-handbook-skills/skills/libafl/SKILL.md"
+    },
+    {
+      "name": "libfuzzer",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Coverage-guided fuzzer built into LLVM for C/C++ projects. Use for fuzzing C/C++ code that can be compiled with Clang.",
+      "provenance": "github.com/trailofbits/skills/plugins/testing-handbook-skills/skills/libfuzzer/SKILL.md"
+    },
+    {
+      "name": "marketing-ideas",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user needs marketing ideas, inspiration, or strategies for their SaaS or software product. Also use when the user asks for 'marketing ideas,' 'growth ideas,' 'how to market,' 'marketing strategies,' 'marketing tactics,' 'ways to promote,' 'ideas to grow,' 'what else can I try,' 'I don't know how to market this,' 'brainstorm marketing,' or 'what marketing should I do.' Use this as a starting point whenever someone is stuck or looking for inspiration on how to grow. For specific channel execution, see the relevant skill (ads, social, emails, etc.).",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/marketing-ideas/SKILL.md"
+    },
+    {
+      "name": "marketing-plan",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user needs a comprehensive marketing plan for a client, a company they advise, or their own product. Also use when the user mentions \"marketing plan,\" \"growth plan,\" \"GTM plan,\" \"go-to-market plan,\" \"AARRR plan,\" \"90-day marketing plan,\" \"12-month marketing roadmap,\" \"fractional CMO plan,\" or \"fCMO plan.\" Generates an exhaustive 13-section plan structured by AARRR (Acquisition, Activation, Retention, Referral, Revenue), customized to the client's current budget, team, and stage, mapped to future funding milestones, cross-referenced with the 139-idea marketing-ideas library and an embedded 17-section current-state audit rubric, with a full marketing operations stack showing which skills and MCP/API integrations execute each part. Outputs a Notion-paste-ready markdown document. For positioning and ICP context before planning, see product-marketing. For stage-specific deep work, see onboarding, signup, emails, referrals, pricing.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/marketing-plan/SKILL.md"
+    },
+    {
+      "name": "marketing-psychology",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants to apply psychological principles, mental models, or behavioral science to marketing. Also use when the user mentions 'psychology,' 'mental models,' 'cognitive bias,' 'persuasion,' 'behavioral science,' 'why people buy,' 'decision-making,' 'consumer behavior,' 'anchoring,' 'social proof,' 'scarcity,' 'loss aversion,' 'framing,' or 'nudge.' Use this whenever someone wants to understand or leverage how people think and make decisions in a marketing context. For applying psychology to specific pages, see cro; for pricing tactics, see pricing; for copy framing, see copywriting.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/marketing-psychology/SKILL.md"
+    },
+    {
+      "name": "mcp-builder",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "Complete terms in LICENSE.txt",
+      "description": "Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external services through well-designed tools. Use when building MCP servers to integrate external APIs or services, whether in Python (FastMCP) or Node/TypeScript (MCP SDK).",
+      "provenance": "github.com/anthropics/skills/skills/mcp-builder/SKILL.md"
+    },
+    {
+      "name": "mermaid-to-proverif",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Translates Mermaid sequenceDiagrams describing cryptographic protocols into ProVerif formal verification models (.pv files). Use when generating a ProVerif model, formally verifying a protocol, converting a Mermaid diagram to ProVerif, verifying protocol security properties (secrecy, authentication, forward secrecy), checking for replay attacks, or producing a .pv file from a sequence diagram.",
+      "provenance": "github.com/trailofbits/skills/plugins/trailmark/skills/mermaid-to-proverif/SKILL.md"
+    },
+    {
+      "name": "migrate-to-shoehorn",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Migrate test files from `as` type assertions to @total-typescript/shoehorn. Use when user mentions shoehorn, wants to replace `as` in tests, or needs partial test data.",
+      "provenance": "github.com/mattpocock/skills/skills/misc/migrate-to-shoehorn/SKILL.md"
+    },
+    {
+      "name": "modern-python",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Configures Python projects with modern tooling (uv, ruff, ty). Use when creating projects, writing standalone scripts, or migrating from pip/Poetry/mypy/black.",
+      "provenance": "github.com/trailofbits/skills/plugins/modern-python/skills/modern-python/SKILL.md"
+    },
+    {
+      "name": "mutation-testing",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Configures mewt or muton mutation testing campaigns — scopes targets, tunes timeouts, and optimizes long-running runs. Use when the user mentions mewt, muton, mutation testing, or wants to configure or optimize a mutation testing campaign.",
+      "provenance": "github.com/trailofbits/skills/plugins/mutation-testing/skills/mutation-testing/SKILL.md"
+    },
+    {
+      "name": "obsidian-vault",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Search, create, and manage notes in the Obsidian vault with wikilinks and index notes. Use when user wants to find, create, or organize notes in Obsidian.",
+      "provenance": "github.com/mattpocock/skills/skills/personal/obsidian-vault/SKILL.md"
+    },
+    {
+      "name": "offers",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants to design, construct, or improve an offer — the thing they actually sell — including value framing, bonus stacking, guarantee design, scarcity/urgency, naming, and payment structure. Also use when the user mentions 'offer,' 'offer design,' 'build an offer,' 'grand slam offer,' 'irresistible offer,' 'value stack,' 'bonus stack,' 'guarantee,' 'risk reversal,' 'money-back guarantee,' 'scarcity,' 'urgency,' 'high-ticket offer,' 'productize a service,' 'naming an offer,' 'payment plan,' 'down-sell,' 'upsell offer,' or 'why isn't my offer converting.' Best for services, agencies, courses, coaching, info products, high-ticket B2B, and direct-response. If you run pure self-serve SaaS, read pricing first — tiers and packaging do more work there. For price level itself (tiers, freemium, value metric), see pricing. For the page that presents the offer, see copywriting. For the launch moment, see launch. For sales collateral, see sales-enablement.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/offers/SKILL.md"
+    },
+    {
+      "name": "onboarding",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants to optimize post-signup onboarding, user activation, first-run experience, or time-to-value. Also use when the user mentions \"onboarding flow,\" \"activation rate,\" \"user activation,\" \"first-run experience,\" \"empty states,\" \"onboarding checklist,\" \"aha moment,\" \"new user experience,\" \"users aren't activating,\" \"nobody completes setup,\" \"low activation rate,\" \"users sign up but don't use the product,\" \"time to value,\" or \"first session experience.\" Use this whenever users are signing up but not sticking around. For signup/registration optimization, see signup. For ongoing email sequences, see emails.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/onboarding/SKILL.md"
+    },
+    {
+      "name": "ossfuzz",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "OSS-Fuzz provides free continuous fuzzing for open source projects. Use when setting up continuous fuzzing infrastructure or enrolling projects.",
+      "provenance": "github.com/trailofbits/skills/plugins/testing-handbook-skills/skills/ossfuzz/SKILL.md"
+    },
+    {
+      "name": "paywalls",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants to create or optimize in-app paywalls, upgrade screens, upsell modals, or feature gates. Also use when the user mentions \"paywall,\" \"upgrade screen,\" \"upgrade modal,\" \"upsell,\" \"feature gate,\" \"convert free to paid,\" \"freemium conversion,\" \"trial expiration screen,\" \"limit reached screen,\" \"plan upgrade prompt,\" \"in-app pricing,\" \"free users won't upgrade,\" \"trial to paid conversion,\" or \"how do I get users to pay.\" Use this for any in-product moment where you're asking users to upgrade. Distinct from public pricing pages (see cro) — this focuses on in-product upgrade moments where the user has already experienced value. For pricing decisions, see pricing.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/paywalls/SKILL.md"
+    },
+    {
+      "name": "pdf",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "Proprietary. LICENSE.txt has complete terms",
+      "description": "Use this skill whenever the user wants to do anything with PDF files. This includes reading or extracting text/tables from PDFs, combining or merging multiple PDFs into one, splitting PDFs apart, rotating pages, adding watermarks, creating new PDFs, filling PDF forms, encrypting/decrypting PDFs, extracting images, and OCR on scanned PDFs to make them searchable. If the user mentions a .pdf file or asks to produce one, use this skill.",
+      "provenance": "github.com/anthropics/skills/skills/pdf/SKILL.md"
+    },
+    {
+      "name": "popups",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants to create or optimize popups, modals, overlays, slide-ins, or banners for conversion purposes. Also use when the user mentions \"exit intent,\" \"popup conversions,\" \"modal optimization,\" \"lead capture popup,\" \"email popup,\" \"announcement banner,\" \"overlay,\" \"collect emails with a popup,\" \"exit popup,\" \"scroll trigger,\" \"sticky bar,\" or \"notification bar.\" Use this for any overlay or interrupt-style conversion element. For forms outside of popups, see cro. For general page conversion optimization, see cro.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/popups/SKILL.md"
+    },
+    {
+      "name": "pptx",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "Proprietary. LICENSE.txt has complete terms",
+      "description": "Use this skill any time a .pptx file is involved in any way — as input, output, or both. This includes: creating slide decks, pitch decks, or presentations; reading, parsing, or extracting text from any .pptx file (even if the extracted content will be used elsewhere, like in an email or summary); editing, modifying, or updating existing presentations; combining or splitting slide files; working with templates, layouts, speaker notes, or comments. Trigger whenever the user mentions \"deck,\" \"slides,\" \"presentation,\" or references a .pptx filename, regardless of what they plan to do with the content afterward. If a .pptx file needs to be opened, created, or touched, use this skill.",
+      "provenance": "github.com/anthropics/skills/skills/pptx/SKILL.md"
+    },
+    {
+      "name": "pricing",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants help with pricing decisions, packaging, or monetization strategy. Also use when the user mentions 'pricing,' 'pricing tiers,' 'freemium,' 'free trial,' 'packaging,' 'price increase,' 'value metric,' 'Van Westendorp,' 'willingness to pay,' 'monetization,' 'how much should I charge,' 'my pricing is wrong,' 'pricing page,' 'annual vs monthly,' 'per seat pricing,' or 'should I offer a free plan.' Use this whenever someone is figuring out what to charge or how to structure their plans. For in-app upgrade screens, see paywalls. For offer construction (bonuses, guarantees, value framing, naming) on services/courses/coaching/high-ticket B2B, see offers.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/pricing/SKILL.md"
+    },
+    {
+      "name": "product-marketing",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants to create or update their product marketing context document. Also use when the user mentions 'product context,' 'marketing context,' 'set up context,' 'positioning,' 'who is my target audience,' 'describe my product,' 'ICP,' 'ideal customer profile,' or wants to avoid repeating foundational information across marketing tasks. Use this at the start of any new project before using other marketing skills — it creates `.agents/product-marketing.md` that all other skills reference for product, audience, and positioning context.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/product-marketing/SKILL.md"
+    },
+    {
+      "name": "programmatic-seo",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants to create SEO-driven pages at scale using templates and data. Also use when the user mentions \"programmatic SEO,\" \"template pages,\" \"pages at scale,\" \"directory pages,\" \"location pages,\" \"[keyword] + [city] pages,\" \"comparison pages,\" \"integration pages,\" \"building many pages for SEO,\" \"pSEO,\" \"generate 100 pages,\" \"data-driven pages,\" or \"templated landing pages.\" Use this whenever someone wants to create many similar pages targeting different keywords or locations. For auditing existing SEO issues, see seo-audit. For content strategy planning, see content-strategy.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/programmatic-seo/SKILL.md"
+    },
+    {
+      "name": "property-based-testing",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Provides guidance for property-based testing across multiple languages and smart contracts. Use when writing tests, reviewing code with serialization/validation/parsing patterns, designing features, or when property-based testing would provide stronger coverage than example-based tests.",
+      "provenance": "github.com/trailofbits/skills/plugins/property-based-testing/skills/property-based-testing/SKILL.md"
+    },
+    {
+      "name": "prospecting",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants to find, qualify, and build a list of prospects to reach out to — across B2B SaaS, general B2B, or local small businesses. Also use when the user mentions \"prospecting,\" \"build a prospect list,\" \"find prospects,\" \"find leads,\" \"lead gen list,\" \"find SaaS companies that,\" \"find B2B companies,\" \"find local businesses,\" \"ICP-fit accounts,\" \"who should we go after,\" \"outbound list,\" \"target account list,\" \"find clients near me,\" \"businesses without websites,\" \"prospect research,\" or \"qualified leads.\" Use this for the list-building and qualification phase. For writing the outbound copy after the list is built, see cold-email. For deep competitive research on specific accounts, see competitor-profiling.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/prospecting/SKILL.md"
+    },
+    {
+      "name": "prototype",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Build a throwaway prototype to flesh out a design before committing to it. Routes between two branches — a runnable terminal app for state/business-logic questions, or several radically different UI variations toggleable from one route. Use when the user wants to prototype, sanity-check a data model or state machine, mock up a UI, explore design options, or says \"prototype this\", \"let me play with it\", \"try a few designs\".",
+      "provenance": "github.com/mattpocock/skills/skills/engineering/prototype/SKILL.md"
+    },
+    {
+      "name": "public-relations",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants help with public relations, earned media, press coverage, journalist outreach, or media strategy (not pull requests). Also use when the user mentions 'PR,' 'public relations,' 'press,' 'press release,' 'press coverage,' 'media outreach,' 'pitch a journalist,' 'get featured,' 'media list,' 'media kit,' 'press kit,' 'newsjacking,' 'news hijack,' 'HARO,' 'Qwoted,' 'Featured,' 'Help A Reporter,' 'reporter request,' 'tech press,' 'TechCrunch,' 'earned media,' 'thought leadership placement,' 'op-ed,' 'guest article,' 'press contacts,' or 'how do I get press.' Use this for earned media work — finding journalists, pitching stories, newsjacking, and responding to press requests. For startup/SaaS/AI directory submissions, see directory-submissions. For product launches, see launch. For social-media engagement, see social. For cold-email outreach to prospects, see cold-email.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/public-relations/SKILL.md"
+    },
+    {
+      "name": "qa",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Interactive QA session where user reports bugs or issues conversationally, and the agent files GitHub issues. Explores the codebase in the background for context and domain language. Use when user wants to report bugs, do QA, file issues conversationally, or mentions \"QA session\".",
+      "provenance": "github.com/mattpocock/skills/skills/deprecated/qa/SKILL.md"
+    },
+    {
+      "name": "receiving-code-review",
+      "kind": "workflow",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Use when receiving code review feedback, before implementing suggestions, especially if feedback seems unclear or technically questionable - requires technical rigor and verification, not performative agreement or blind implementation",
+      "provenance": "github.com/obra/superpowers/skills/receiving-code-review/SKILL.md"
+    },
+    {
+      "name": "referrals",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants to create, optimize, or analyze a referral program, affiliate program, or word-of-mouth strategy. Also use when the user mentions 'referral,' 'affiliate,' 'ambassador,' 'word of mouth,' 'viral loop,' 'refer a friend,' 'partner program,' 'referral incentive,' 'how to get referrals,' 'customers referring customers,' or 'affiliate payout.' Use this whenever someone wants existing users or partners to bring in new customers. For launch-specific virality, see launch.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/referrals/SKILL.md"
+    },
+    {
+      "name": "remotion-best-practices",
+      "kind": "media",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Best practices for Remotion - Video creation in React",
+      "provenance": "github.com/remotion-dev/skills/skills/remotion/SKILL.md"
+    },
+    {
+      "name": "request-refactor-plan",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Create a detailed refactor plan with tiny commits via user interview, then file it as a GitHub issue. Use when user wants to plan a refactor, create a refactoring RFC, or break a refactor into safe incremental steps.",
+      "provenance": "github.com/mattpocock/skills/skills/deprecated/request-refactor-plan/SKILL.md"
+    },
+    {
+      "name": "requesting-code-review",
+      "kind": "workflow",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Use when completing tasks, implementing major features, or before merging to verify work meets requirements",
+      "provenance": "github.com/obra/superpowers/skills/requesting-code-review/SKILL.md"
+    },
+    {
+      "name": "review",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Review the changes since a fixed point (commit, branch, tag, or merge-base) along two axes — Standards (does the code follow this repo's documented coding standards?) and Spec (does the code match what the originating issue/PRD asked for?). Runs both reviews in parallel sub-agents and reports them side by side. Use when the user wants to review a branch, a PR, work-in-progress changes, or asks to \"review since X\".",
+      "provenance": "github.com/mattpocock/skills/skills/in-progress/review/SKILL.md"
+    },
+    {
+      "name": "revops",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants help with revenue operations, lead lifecycle management, or marketing-to-sales handoff processes. Also use when the user mentions 'RevOps,' 'revenue operations,' 'lead scoring,' 'lead routing,' 'MQL,' 'SQL,' 'pipeline stages,' 'deal desk,' 'CRM automation,' 'marketing-to-sales handoff,' 'data hygiene,' 'leads aren't getting to sales,' 'pipeline management,' 'lead qualification,' or 'when should marketing hand off to sales.' Use this for anything involving the systems and processes that connect marketing to revenue. For cold outreach emails, see cold-email. For email drip campaigns, see emails. For pricing decisions, see pricing.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/revops/SKILL.md"
+    },
+    {
+      "name": "ruzzy",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Ruzzy is a coverage-guided Ruby fuzzer by Trail of Bits. Use for fuzzing pure Ruby code and Ruby C extensions.",
+      "provenance": "github.com/trailofbits/skills/plugins/testing-handbook-skills/skills/ruzzy/SKILL.md"
+    },
+    {
+      "name": "sales-enablement",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants to create sales collateral, pitch decks, one-pagers, objection handling docs, or demo scripts. Also use when the user mentions 'sales deck,' 'pitch deck,' 'one-pager,' 'leave-behind,' 'objection handling,' 'deal-specific ROI analysis,' 'demo script,' 'talk track,' 'sales playbook,' 'proposal template,' 'buyer persona card,' 'help my sales team,' 'sales materials,' or 'what should I give my sales reps.' Use this for any document or asset that helps a sales team close deals. For competitor comparison pages and battle cards, see competitors. For marketing website copy, see copywriting. For cold outreach emails, see cold-email. For the offer being sold (bonuses, guarantees, pricing structure), see offers.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/sales-enablement/SKILL.md"
+    },
+    {
+      "name": "sarif-parsing",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Parses and processes SARIF files from static analysis tools like CodeQL, Semgrep, or other scanners. Triggers on \"parse sarif\", \"read scan results\", \"aggregate findings\", \"deduplicate alerts\", or \"process sarif output\". Handles filtering, deduplication, format conversion, and CI/CD integration of SARIF data. Does NOT run scans — use the Semgrep or CodeQL skills for that.",
+      "provenance": "github.com/trailofbits/skills/plugins/static-analysis/skills/sarif-parsing/SKILL.md"
+    },
+    {
+      "name": "scaffold-exercises",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Create exercise directory structures with sections, problems, solutions, and explainers that pass linting. Use when user wants to scaffold exercises, create exercise stubs, or set up a new course section.",
+      "provenance": "github.com/mattpocock/skills/skills/misc/scaffold-exercises/SKILL.md"
+    },
+    {
+      "name": "schema",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants to add, fix, or optimize schema markup and structured data on their site. Also use when the user mentions \"schema markup,\" \"structured data,\" \"JSON-LD,\" \"rich snippets,\" \"schema.org,\" \"FAQ schema,\" \"product schema,\" \"review schema,\" \"breadcrumb schema,\" \"Google rich results,\" \"knowledge panel,\" \"star ratings in search,\" or \"add structured data.\" Use this whenever someone wants their pages to show enhanced results in Google. For broader SEO issues, see seo-audit. For AI search optimization, see ai-seo.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/schema/SKILL.md"
+    },
+    {
+      "name": "seatbelt-sandboxer",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Generates minimal macOS Seatbelt sandbox configurations. Use when sandboxing, isolating, or restricting macOS applications with allowlist-based profiles.",
+      "provenance": "github.com/trailofbits/skills/plugins/seatbelt-sandboxer/skills/seatbelt-sandboxer/SKILL.md"
+    },
+    {
+      "name": "second-opinion",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Runs external LLM code reviews (OpenAI Codex or Google Gemini CLI) on uncommitted changes, branch diffs, or specific commits. Use when the user asks for a second opinion, external review, codex review, gemini review, or mentions /second-opinion.",
+      "provenance": "github.com/trailofbits/skills/plugins/second-opinion/skills/second-opinion/SKILL.md"
+    },
+    {
+      "name": "secure-workflow-guide",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Guides through Trail of Bits' 5-step secure development workflow. Runs Slither scans, checks special features (upgradeability/ERC conformance/token integration), generates visual security diagrams, helps document security properties for fuzzing/verification, and reviews manual security areas.",
+      "provenance": "github.com/trailofbits/skills/plugins/building-secure-contracts/skills/secure-workflow-guide/SKILL.md"
+    },
+    {
+      "name": "semgrep",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Run Semgrep static analysis scan on a codebase using parallel subagents. Supports two scan modes — \"run all\" (full ruleset coverage) and \"important only\" (high-confidence security vulnerabilities). Automatically detects and uses Semgrep Pro for cross-file taint analysis when available. Use when asked to scan code for vulnerabilities, run a security audit with Semgrep, find bugs, or perform static analysis. Spawns parallel workers for multi-language codebases.",
+      "provenance": "github.com/trailofbits/skills/plugins/static-analysis/skills/semgrep/SKILL.md"
+    },
+    {
+      "name": "semgrep-rule-creator",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Creates custom Semgrep rules for detecting security vulnerabilities, bug patterns, and code patterns. Use when writing Semgrep rules or building custom static analysis detections.",
+      "provenance": "github.com/trailofbits/skills/plugins/semgrep-rule-creator/skills/semgrep-rule-creator/SKILL.md"
+    },
+    {
+      "name": "semgrep-rule-variant-creator",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Creates language variants of existing Semgrep rules. Use when porting a Semgrep rule to specified target languages. Takes an existing rule and target languages as input, produces independent rule+test directories for each language.",
+      "provenance": "github.com/trailofbits/skills/plugins/semgrep-rule-variant-creator/skills/semgrep-rule-variant-creator/SKILL.md"
+    },
+    {
+      "name": "seo-audit",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants to audit, review, or diagnose SEO issues on their site. Also use when the user mentions \"SEO audit,\" \"technical SEO,\" \"why am I not ranking,\" \"SEO issues,\" \"on-page SEO,\" \"meta tags review,\" \"SEO health check,\" \"my traffic dropped,\" \"lost rankings,\" \"not showing up in Google,\" \"site isn't ranking,\" \"Google update hit me,\" \"page speed,\" \"core web vitals,\" \"crawl errors,\" or \"indexing issues.\" Use this even if the user just says something vague like \"my SEO is bad\" or \"help with SEO\" — start with an audit. For building pages at scale to target keywords, see programmatic-seo. For adding structured data, see schema. For AI search optimization, see ai-seo.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/seo-audit/SKILL.md"
+    },
+    {
+      "name": "setup-matt-pocock-skills",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Sets up an `## Agent skills` block in AGENTS.md/CLAUDE.md and `docs/agents/` so the engineering skills know this repo's issue tracker (GitHub or local markdown), triage label vocabulary, and domain doc layout. Run before first use of `to-issues`, `to-prd`, `triage`, `diagnose`, `tdd`, `improve-codebase-architecture`, or `zoom-out` — or if those skills appear to be missing context about the issue tracker, triage labels, or domain docs.",
+      "provenance": "github.com/mattpocock/skills/skills/engineering/setup-matt-pocock-skills/SKILL.md"
+    },
+    {
+      "name": "setup-pre-commit",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Set up Husky pre-commit hooks with lint-staged (Prettier), type checking, and tests in the current repo. Use when user wants to add pre-commit hooks, set up Husky, configure lint-staged, or add commit-time formatting/typechecking/testing.",
+      "provenance": "github.com/mattpocock/skills/skills/misc/setup-pre-commit/SKILL.md"
+    },
+    {
+      "name": "sharp-edges",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Identifies error-prone APIs, dangerous configurations, and footgun designs that enable security mistakes. Use when reviewing API designs, configuration schemas, cryptographic library ergonomics, or evaluating whether code follows 'secure by default' and 'pit of success' principles. Triggers: footgun, misuse-resistant, secure defaults, API usability, dangerous configuration.",
+      "provenance": "github.com/trailofbits/skills/plugins/sharp-edges/skills/sharp-edges/SKILL.md"
+    },
+    {
+      "name": "signup",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants to optimize signup, registration, account creation, or trial activation flows. Also use when the user mentions \"signup conversions,\" \"registration friction,\" \"signup form optimization,\" \"free trial signup,\" \"reduce signup dropoff,\" \"account creation flow,\" \"people aren't signing up,\" \"signup abandonment,\" \"trial conversion rate,\" \"nobody completes registration,\" \"too many steps to sign up,\" or \"simplify our signup.\" Use this whenever the user has a signup or registration flow that isn't performing. For post-signup onboarding, see onboarding. For lead capture forms (not account creation), see cro.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/signup/SKILL.md"
+    },
+    {
+      "name": "site-architecture",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants to plan, map, or restructure their website's page hierarchy, navigation, URL structure, or internal linking. Also use when the user mentions \"sitemap,\" \"site map,\" \"visual sitemap,\" \"site structure,\" \"page hierarchy,\" \"information architecture,\" \"IA,\" \"navigation design,\" \"URL structure,\" \"breadcrumbs,\" \"internal linking strategy,\" \"website planning,\" \"what pages do I need,\" \"how should I organize my site,\" or \"site navigation.\" Use this whenever someone is planning what pages a website should have and how they connect. NOT for XML sitemaps (that's technical SEO — see seo-audit). For SEO audits, see seo-audit. For structured data, see schema.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/site-architecture/SKILL.md"
+    },
+    {
+      "name": "skill-creator",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "Anthropic (see LICENSE.txt)",
+      "description": "Create new skills, modify and improve existing skills, and measure skill performance. Use when users want to create a skill from scratch, edit, or optimize an existing skill, run evals to test a skill, benchmark skill performance with variance analysis, or optimize a skill's description for better triggering accuracy.",
+      "provenance": "github.com/anthropics/skills/skills/skill-creator/SKILL.md"
+    },
+    {
+      "name": "skill-improver",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Iteratively reviews and fixes Claude Code skill quality issues until they meet standards. Runs automated fix-review cycles using the skill-reviewer agent. Use to fix skill quality issues, improve skill descriptions, run automated skill review loops, or iteratively refine a skill. Triggers on 'fix my skill', 'improve skill quality', 'skill improvement loop'. NOT for one-time reviews—use /skill-reviewer directly.",
+      "provenance": "github.com/trailofbits/skills/plugins/skill-improver/skills/skill-improver/SKILL.md"
+    },
+    {
+      "name": "slack-gif-creator",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "Complete terms in LICENSE.txt",
+      "description": "Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and animation concepts. Use when users request animated GIFs for Slack like \"make me a GIF of X doing Y for Slack.\"",
+      "provenance": "github.com/anthropics/skills/skills/slack-gif-creator/SKILL.md"
+    },
+    {
+      "name": "sms",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants to plan, build, or optimize SMS or MMS marketing — including welcome flows, abandoned cart texts, post-purchase, win-back, promotional sends, or transactional/auth SMS. Also use when the user mentions \"SMS marketing,\" \"text message campaigns,\" \"SMS sequence,\" \"SMS automation,\" \"abandoned cart text,\" \"post-purchase SMS,\" \"Klaviyo SMS,\" \"Postscript,\" \"Attentive,\" \"Twilio,\" \"A2P 10DLC,\" \"TCPA,\" \"SMS compliance,\" \"short code,\" \"toll-free SMS,\" \"MMS campaign,\" \"should I do SMS,\" or \"SMS vs email.\" For email sequences, see emails. For SMS copy framing, see copywriting. For opt-in popups that capture phone numbers, see popups.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/sms/SKILL.md"
+    },
+    {
+      "name": "social",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants help creating, scheduling, or optimizing social media content for LinkedIn, Twitter/X, Instagram, TikTok, Facebook, or other platforms, or wants to do social listening and engagement triage. Also use when the user mentions 'LinkedIn post,' 'Twitter thread,' 'social media,' 'content calendar,' 'social scheduling,' 'engagement,' 'viral content,' 'what should I post,' 'repurpose this content,' 'tweet ideas,' 'LinkedIn carousel,' 'social media strategy,' 'grow my following,' 'TikTok video,' 'Reels,' 'Shorts,' 'video script,' 'video hook,' 'short-form video,' 'create a reel,' 'social listening,' 'brand mentions,' 'competitor monitoring,' 'top posts to comment on,' or 'find people asking for.' Use this for social media content creation, repurposing, scheduling, short-form video scripting, and social listening. For broader content strategy, see content-strategy. For paid ads, see ad-creative. For earned media, see public-relations.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/social/SKILL.md"
+    },
+    {
+      "name": "solana-vulnerability-scanner",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Scans Solana programs for 6 critical vulnerabilities including arbitrary CPI, improper PDA validation, missing signer/ownership checks, and sysvar spoofing. Use when auditing Solana/Anchor programs.",
+      "provenance": "github.com/trailofbits/skills/plugins/building-secure-contracts/skills/solana-vulnerability-scanner/SKILL.md"
+    },
+    {
+      "name": "spec-to-code-compliance",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Verifies code implements exactly what documentation specifies for blockchain audits. Use when comparing code against whitepapers, finding gaps between specs and implementation, or performing compliance checks for protocol implementations.",
+      "provenance": "github.com/trailofbits/skills/plugins/spec-to-code-compliance/skills/spec-to-code-compliance/SKILL.md"
+    },
+    {
+      "name": "subagent-driven-development",
+      "kind": "workflow",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Use when executing implementation plans with independent tasks in the current session",
+      "provenance": "github.com/obra/superpowers/skills/subagent-driven-development/SKILL.md"
+    },
+    {
+      "name": "substrate-vulnerability-scanner",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Scans Substrate/Polkadot pallets for 7 critical vulnerabilities including arithmetic overflow, panic DoS, incorrect weights, and bad origin checks. Use when auditing Substrate runtimes or FRAME pallets.",
+      "provenance": "github.com/trailofbits/skills/plugins/building-secure-contracts/skills/substrate-vulnerability-scanner/SKILL.md"
+    },
+    {
+      "name": "supply-chain-risk-auditor",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Identifies dependencies at heightened risk of exploitation or takeover. Use when assessing supply chain attack surface, evaluating dependency health, or scoping security engagements.",
+      "provenance": "github.com/trailofbits/skills/plugins/supply-chain-risk-auditor/skills/supply-chain-risk-auditor/SKILL.md"
+    },
+    {
+      "name": "systematic-debugging",
+      "kind": "workflow",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Use when encountering any bug, test failure, or unexpected behavior, before proposing fixes",
+      "provenance": "github.com/obra/superpowers/skills/systematic-debugging/SKILL.md"
+    },
+    {
+      "name": "tdd",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Test-driven development with red-green-refactor loop. Use when user wants to build features or fix bugs using TDD, mentions \"red-green-refactor\", wants integration tests, or asks for test-first development.",
+      "provenance": "github.com/mattpocock/skills/skills/engineering/tdd/SKILL.md"
+    },
+    {
+      "name": "teach",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Teach the user a new skill or concept, within this workspace.",
+      "provenance": "github.com/mattpocock/skills/skills/productivity/teach/SKILL.md"
+    },
+    {
+      "name": "test-driven-development",
+      "kind": "workflow",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Use when implementing any feature or bugfix, before writing implementation code",
+      "provenance": "github.com/obra/superpowers/skills/test-driven-development/SKILL.md"
+    },
+    {
+      "name": "testing-handbook-generator",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Meta-skill that analyzes the Trail of Bits Testing Handbook (appsec.guide) and generates Claude Code skills for security testing tools and techniques. Use when creating new skills based on handbook content.",
+      "provenance": "github.com/trailofbits/skills/plugins/testing-handbook-skills/skills/testing-handbook-generator/SKILL.md"
+    },
+    {
+      "name": "theme-factory",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "Complete terms in LICENSE.txt",
+      "description": "Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc. There are 10 pre-set themes with colors/fonts that you can apply to any artifact that has been creating, or can generate a new theme on-the-fly.",
+      "provenance": "github.com/anthropics/skills/skills/theme-factory/SKILL.md"
+    },
+    {
+      "name": "to-issues",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Break a plan, spec, or PRD into independently-grabbable issues on the project issue tracker using tracer-bullet vertical slices. Use when user wants to convert a plan into issues, create implementation tickets, or break down work into issues.",
+      "provenance": "github.com/mattpocock/skills/skills/engineering/to-issues/SKILL.md"
+    },
+    {
+      "name": "to-prd",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Turn the current conversation context into a PRD and publish it to the project issue tracker. Use when user wants to create a PRD from the current context.",
+      "provenance": "github.com/mattpocock/skills/skills/engineering/to-prd/SKILL.md"
+    },
+    {
+      "name": "token-integration-analyzer",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Token integration and implementation analyzer based on Trail of Bits' token integration checklist. Analyzes token implementations for ERC20/ERC721 conformity, checks for 20+ weird token patterns, assesses contract composition and owner privileges, performs on-chain scarcity analysis, and evaluates how protocols handle non-standard tokens. Context-aware for both token implementations and token integrations.",
+      "provenance": "github.com/trailofbits/skills/plugins/building-secure-contracts/skills/token-integration-analyzer/SKILL.md"
+    },
+    {
+      "name": "ton-vulnerability-scanner",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Scans TON (The Open Network) smart contracts for 3 critical vulnerabilities including integer-as-boolean misuse, fake Jetton contracts, and forward TON without gas checks. Use when auditing FunC contracts.",
+      "provenance": "github.com/trailofbits/skills/plugins/building-secure-contracts/skills/ton-vulnerability-scanner/SKILL.md"
+    },
+    {
+      "name": "trailmark",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Builds and queries multi-language source code graphs for security analysis. Includes pre-analysis passes for blast radius, taint propagation, privilege boundaries, and entry point enumeration. Use when analyzing call paths, mapping attack surface, finding complexity hotspots, enumerating entry points, tracing taint propagation, measuring blast radius, or building a code graph for audit prioritization. Prefer `trailmark.parse.detect_languages()` or `--language auto` when the target language is unknown or polyglot.",
+      "provenance": "github.com/trailofbits/skills/plugins/trailmark/skills/trailmark/SKILL.md"
+    },
+    {
+      "name": "trailmark-structural",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Runs full Trailmark structural analysis on Trailmark 0.2.x by building a graph, running `preanalysis()`, and reporting hotspots, taint, blast radius, privilege boundaries, and attack surface. Use when vivisect needs detailed structural data for a target. Triggers: structural analysis, blast radius, taint analysis, complexity hotspots.",
+      "provenance": "github.com/trailofbits/skills/plugins/trailmark/skills/trailmark-structural/SKILL.md"
+    },
+    {
+      "name": "trailmark-summary",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Runs a Trailmark summary analysis on a codebase. Returns auto-detected languages, entry point count, and dependency list. Use when vivisect or galvanize needs a quick structural overview. Triggers: trailmark summary, code summary, structural overview.",
+      "provenance": "github.com/trailofbits/skills/plugins/trailmark/skills/trailmark-summary/SKILL.md"
+    },
+    {
+      "name": "triage",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Triage issues through a state machine driven by triage roles. Use when user wants to create an issue, triage issues, review incoming bugs or feature requests, prepare issues for an AFK agent, or manage issue workflow.",
+      "provenance": "github.com/mattpocock/skills/skills/engineering/triage/SKILL.md"
+    },
+    {
+      "name": "ubiquitous-language",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Extract a DDD-style ubiquitous language glossary from the current conversation, flagging ambiguities and proposing canonical terms. Saves to UBIQUITOUS_LANGUAGE.md. Use when user wants to define domain terms, build a glossary, harden terminology, create a ubiquitous language, or mentions \"domain model\" or \"DDD\".",
+      "provenance": "github.com/mattpocock/skills/skills/deprecated/ubiquitous-language/SKILL.md"
+    },
+    {
+      "name": "using-git-worktrees",
+      "kind": "workflow",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Use when starting feature work that needs isolation from current workspace or before executing implementation plans - ensures an isolated workspace exists via native tools or git worktree fallback",
+      "provenance": "github.com/obra/superpowers/skills/using-git-worktrees/SKILL.md"
+    },
+    {
+      "name": "using-superpowers",
+      "kind": "workflow",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Use when starting any conversation - establishes how to find and use skills, requiring skill invocation before ANY response including clarifying questions",
+      "provenance": "github.com/obra/superpowers/skills/using-superpowers/SKILL.md"
+    },
+    {
+      "name": "variant-analysis",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Find similar vulnerabilities and bugs across codebases using pattern-based analysis. Use when hunting bug variants, building CodeQL/Semgrep queries, analyzing security vulnerabilities, or performing systematic code audits after finding an initial issue.",
+      "provenance": "github.com/trailofbits/skills/plugins/variant-analysis/skills/variant-analysis/SKILL.md"
+    },
+    {
+      "name": "vector-forge",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Mutation-driven test vector generation. Finds implementations of a cryptographic algorithm or protocol, runs mutation testing to identify escaped mutants, then generates new test vectors that deliberately exercise the uncovered code paths. Compares before/after mutation kill rates to prove vector effectiveness. Use when generating cryptographic test vectors, measuring Wycheproof coverage gaps, finding escaped mutants via mutation testing, creating cross-implementation test suites, or improving test vector coverage for crypto primitives.",
+      "provenance": "github.com/trailofbits/skills/plugins/trailmark/skills/vector-forge/SKILL.md"
+    },
+    {
+      "name": "vercel-cli-with-tokens",
+      "kind": "frontend",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Deploy and manage projects on Vercel using token-based authentication. Use when working with Vercel CLI using access tokens rather than interactive login — e.g. \"deploy to vercel\", \"set up vercel\", \"add environment variables to vercel\".",
+      "provenance": "github.com/vercel-labs/agent-skills/skills/vercel-cli-with-tokens/SKILL.md"
+    },
+    {
+      "name": "vercel-composition-patterns",
+      "kind": "frontend",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "React composition patterns that scale. Use when refactoring components with boolean prop proliferation, building flexible component libraries, or designing reusable APIs. Triggers on tasks involving compound components, render props, context providers, or component architecture. Includes React 19 API changes.",
+      "provenance": "github.com/vercel-labs/agent-skills/skills/composition-patterns/SKILL.md"
+    },
+    {
+      "name": "vercel-optimize",
+      "kind": "frontend",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Use for Vercel cost and performance optimization on deployed projects, especially Next.js, SvelteKit, Nuxt, and limited Astro apps. Collect Vercel metrics, usage, project config, and code scan results first; investigate only metric-backed candidates; produce ranked recommendations grounded in verified files and version-aware Vercel/framework docs. Trigger for Vercel bill reduction, slow or expensive routes, caching opportunities, Function Invocations, Build Minutes, Fast Data Transfer, Core Web Vitals, Bot Management, Fluid compute, or cost breakdown requests.",
+      "provenance": "github.com/vercel-labs/agent-skills/skills/vercel-optimize/SKILL.md"
+    },
+    {
+      "name": "vercel-react-best-practices",
+      "kind": "frontend",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "React and Next.js performance optimization guidelines from Vercel Engineering. This skill should be used when writing, reviewing, or refactoring React/Next.js code to ensure optimal performance patterns. Triggers on tasks involving React components, Next.js pages, data fetching, bundle optimization, or performance improvements.",
+      "provenance": "github.com/vercel-labs/agent-skills/skills/react-best-practices/SKILL.md"
+    },
+    {
+      "name": "vercel-react-native-skills",
+      "kind": "frontend",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "React Native and Expo best practices for building performant mobile apps. Use when building React Native components, optimizing list performance, implementing animations, or working with native modules. Triggers on tasks involving React Native, Expo, mobile performance, or native platform APIs.",
+      "provenance": "github.com/vercel-labs/agent-skills/skills/react-native-skills/SKILL.md"
+    },
+    {
+      "name": "vercel-react-view-transitions",
+      "kind": "frontend",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Guide for implementing smooth, native-feeling animations using React's View Transition API (`<ViewTransition>` component, `addTransitionType`, and CSS view transition pseudo-elements). Use this skill whenever the user wants to add page transitions, animate route changes, create shared element animations, animate enter/exit of components, animate list reorder, implement directional (forward/back) navigation animations, or integrate view transitions in Next.js. Also use when the user mentions view transitions, `startViewTransition`, `ViewTransition`, transition types, or asks about animating between UI states in React without third-party animation libraries.",
+      "provenance": "github.com/vercel-labs/agent-skills/skills/react-view-transitions/SKILL.md"
+    },
+    {
+      "name": "verification-before-completion",
+      "kind": "workflow",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Use when about to claim work is complete, fixed, or passing, before committing or creating PRs - requires running verification commands and confirming output before making any success claims; evidence before assertions always",
+      "provenance": "github.com/obra/superpowers/skills/verification-before-completion/SKILL.md"
+    },
+    {
+      "name": "video",
+      "kind": "marketing",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "When the user wants to create, generate, or produce video content using AI tools or programmatic frameworks. Also use when the user mentions 'video production,' 'AI video,' 'Remotion,' 'Hyperframes,' 'HeyGen,' 'Synthesia,' 'Veo,' 'Sora,' 'Runway,' 'Kling,' 'Seedance,' 'Hailuo,' 'MiniMax,' 'Pika,' 'Hunyuan,' 'Wan,' 'video generation,' 'AI avatar,' 'talking head video,' 'programmatic video,' 'video template,' 'explainer video,' 'product demo video,' 'video pipeline,' or 'make me a video.' Use this for video creation, generation, and production workflows. For video content strategy and what to post, see social. For paid video ad creative, see ad-creative.",
+      "provenance": "github.com/coreyhaines31/marketingskills/skills/video/SKILL.md"
+    },
+    {
+      "name": "web-artifacts-builder",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "Complete terms in LICENSE.txt",
+      "description": "Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologies (React, Tailwind CSS, shadcn/ui). Use for complex artifacts requiring state management, routing, or shadcn/ui components - not for simple single-file HTML/JSX artifacts.",
+      "provenance": "github.com/anthropics/skills/skills/web-artifacts-builder/SKILL.md"
+    },
+    {
+      "name": "web-design-guidelines",
+      "kind": "frontend",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Review UI code for Web Interface Guidelines compliance. Use when asked to \"review my UI\", \"check accessibility\", \"audit design\", \"review UX\", or \"check my site against best practices\".",
+      "provenance": "github.com/vercel-labs/agent-skills/skills/web-design-guidelines/SKILL.md"
+    },
+    {
+      "name": "webapp-testing",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "Complete terms in LICENSE.txt",
+      "description": "Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functionality, debugging UI behavior, capturing browser screenshots, and viewing browser logs.",
+      "provenance": "github.com/anthropics/skills/skills/webapp-testing/SKILL.md"
+    },
+    {
+      "name": "write-a-skill",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Create new agent skills with proper structure, progressive disclosure, and bundled resources. Use when user wants to create, write, or build a new skill.",
+      "provenance": "github.com/mattpocock/skills/skills/productivity/write-a-skill/SKILL.md"
+    },
+    {
+      "name": "writing-beats",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Shape an article as a journey of beats, choose-your-own-adventure style. The user picks a starting beat from the raw material, you write only that beat, then offer options for where to pivot next, beat by beat, until the article reaches a natural end. Use when the user has raw material and wants to assemble it as a narrative rather than an argument.",
+      "provenance": "github.com/mattpocock/skills/skills/in-progress/writing-beats/SKILL.md"
+    },
+    {
+      "name": "writing-fragments",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Grilling session that mines the user for fragments — heterogeneous nuggets of writing (claims, vignettes, sharp sentences, half-thoughts) — and appends them to a single document as raw material for a future article. Use when the user wants to develop ideas before imposing structure, or mentions \"fragments\", \"ideate\", or \"raw material\" for writing.",
+      "provenance": "github.com/mattpocock/skills/skills/in-progress/writing-fragments/SKILL.md"
+    },
+    {
+      "name": "writing-guidelines",
+      "kind": "frontend",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Review docs/prose for Writing Guidelines compliance. Use when asked to \"review my docs\", \"check writing style\", \"audit prose\", \"review docs voice and tone\", or \"check this page against the writing handbook\".",
+      "provenance": "github.com/vercel-labs/agent-skills/skills/writing-guidelines/SKILL.md"
+    },
+    {
+      "name": "writing-plans",
+      "kind": "workflow",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Use when you have a spec or requirements for a multi-step task, before touching code",
+      "provenance": "github.com/obra/superpowers/skills/writing-plans/SKILL.md"
+    },
+    {
+      "name": "writing-shape",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Take a markdown file of raw material and shape it into an article through a conversational session — drafting candidate openings, growing the piece paragraph by paragraph, arguing about format (lists, tables, callouts, quotes) at each step. Use when the user has a pile of notes, fragments, or a rough draft and wants help turning it into something publishable.",
+      "provenance": "github.com/mattpocock/skills/skills/in-progress/writing-shape/SKILL.md"
+    },
+    {
+      "name": "writing-skills",
+      "kind": "workflow",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Use when creating new skills, editing existing skills, or verifying skills work before deployment",
+      "provenance": "github.com/obra/superpowers/skills/writing-skills/SKILL.md"
+    },
+    {
+      "name": "wycheproof",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Wycheproof provides test vectors for validating cryptographic implementations. Use when testing crypto code for known attacks and edge cases.",
+      "provenance": "github.com/trailofbits/skills/plugins/testing-handbook-skills/skills/wycheproof/SKILL.md"
+    },
+    {
+      "name": "xlsx",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "Proprietary. LICENSE.txt has complete terms",
+      "description": "Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants to: open, read, edit, or fix an existing .xlsx, .xlsm, .csv, or .tsv file (e.g., adding columns, computing formulas, formatting, charting, cleaning messy data); create a new spreadsheet from scratch or from other data sources; or convert between tabular file formats. Trigger especially when the user references a spreadsheet file by name or path — even casually (like \"the xlsx in my downloads\") — and wants something done to it or produced from it. Also trigger for cleaning or restructuring messy tabular data files (malformed rows, misplaced headers, junk data) into proper spreadsheets. The deliverable must be a spreadsheet file. Do NOT trigger when the primary deliverable is a Word document, HTML report, standalone Python script, database pipeline, or Google Sheets API integration, even if tabular data is involved.",
+      "provenance": "github.com/anthropics/skills/skills/xlsx/SKILL.md"
+    },
+    {
+      "name": "yara-rule-authoring",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Guides authoring of high-quality YARA-X detection rules for malware identification. Use when writing, reviewing, or optimizing YARA rules. Covers naming conventions, string selection, performance optimization, migration from legacy YARA, and false positive reduction. Triggers on: YARA, YARA-X, malware detection, threat hunting, IOC, signature, crx module, dex module.",
+      "provenance": "github.com/trailofbits/skills/plugins/yara-authoring/skills/yara-rule-authoring/SKILL.md"
+    },
+    {
+      "name": "zeroize-audit",
+      "kind": "security",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "see-source",
+      "description": "Detects missing zeroization of sensitive data in source code and identifies zeroization removed by compiler optimizations, with assembly-level analysis, and control-flow verification. Use for auditing C/C++/Rust code handling secrets, keys, passwords, or other sensitive data.",
+      "provenance": "github.com/trailofbits/skills/plugins/zeroize-audit/skills/zeroize-audit/SKILL.md"
+    },
+    {
+      "name": "zoom-out",
+      "kind": "core",
+      "framework": false,
+      "version": "sha:HEAD",
+      "license": "MIT",
+      "description": "Tell the agent to zoom out and give broader context or a higher-level perspective. Use when you're unfamiliar with a section of code or need to understand how it fits into the bigger picture.",
+      "provenance": "github.com/mattpocock/skills/skills/engineering/zoom-out/SKILL.md"
     }
-  ],
-  "index-version": 1,
-  "generated-by": "gen-skill-index.mjs (skills-management Phase 0.2)"
+  ]
 }
